@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Hello from './Hello';
+import MyError from './MyError';
 
 class App extends Component {
   render() {
@@ -19,6 +21,8 @@ class App extends Component {
           >
             Learn React
           </a>
+          <Hello />
+          <MyError />
         </header>
       </div>
     );
